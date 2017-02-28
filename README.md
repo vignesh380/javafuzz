@@ -1,3 +1,12 @@
+# Revision update
+
+Modified the class to invoke a constructor to take a class and the number of test cases that has to run. 
+
+* Usage
+
+FuzzerMethod.Fuzz(String ClassName,int numberOf Tests.)
+Returns Map<org.javafuzzing.fuzzer.Results,Integer> a Hashmap of the number of test cases ran and the number of test cases that failed. 
+
 # javafuzz
 
 <p>JavaFuzz is a java classes fuzzer based on the the Java Reflection API. The reflection API represents, or reflects, the classes, interfaces, and objects in the current Java Virtual Machine. Using the reflection API it can contruct and invoke any given class (or list of classes). After getting the types that a class accepts will construct the class using expected and/or inappropriate values. If the option -m is issued then all the methods will be invoked as well. Have look in the Examples article.
