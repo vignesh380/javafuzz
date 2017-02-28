@@ -2,10 +2,10 @@
 
 Modified the class to invoke a constructor to take a class and the number of test cases that has to run. 
 
-* Usage
-
-FuzzerMethod.Fuzz(String ClassName,int numberOf Tests.)
-Returns Map<org.javafuzzing.fuzzer.Results,Integer> a Hashmap of the number of test cases ran and the number of test cases that failed. 
+Usage
+------
+    Invoke FuzzerMethod.Fuzz(String ClassName,int numberOfTests)
+    Returns Map<org.javafuzzing.fuzzer.Results,Integer> a Hashmap of the number of test cases ran and the number of test cases that failed. 
 
 # javafuzz
 
